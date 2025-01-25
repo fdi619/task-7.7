@@ -1,9 +1,35 @@
 .calc-row {
-    height: 100vh;
-    font-family: 'Share Tech Mono', monospace;
+  height: 100vh;
+  font-family: "Share Tech Mono", monospace;
 }
 
 .input-window {
-    text-align: end;
-    font-size: x-large;
+  text-align: end;
+  font-size: x-large;
+}
+
+#btn_clr {
+  background-color: #dc3545;
+  color: #fff;
+  border-color: #dc3545;
+}
+
+#btn_clr:hover {
+  background-color: #3e3e3e;
+  color: #fff;
+}
+
+.btn-outline-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #fff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #014b9bb6;
+  color: #fff;
+}
+
+.card-body {
+  background-color: #3e3e3e;
 }
