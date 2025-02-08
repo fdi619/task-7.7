@@ -1,4 +1,40 @@
 .game-card {
-    height: 100vh;
-    font-family: 'Open Sans', monospace;
+  height: 100vh;
+  font-family: "Open Sans", monospace;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: #cfedaa46;
+}
+
+.card-header {
+  background-color: rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  font-family: monospace;
+  font-size: 1.3em;
+}
+
+.card-body {
+  font-family: monospace;
+}
+
+.btn-info {
+  background-color: #07373f;
+  border-color: #07373f;
+}
+
+.btn-success {
+  background-color: #e6611d;
+  border-color: #e6611d;
+}
+
+.btn-info:hover {
+  background-color: #149db5;
+  border-color: #149db5;
+}
+
+.btn-success:hover {
+  background-color: #2c6d11;
+  border-color: #2c6d11;
 }
